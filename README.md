@@ -3,7 +3,6 @@
 This repository provides a Python script that performs fuzzy string matching between two name lists from separate Excel files using the fuzzywuzzy or rapidfuzz libraries.
 
 The goal is to identify and match name records across systems, where names may vary due to formatting, spelling inconsistencies, or abbreviations.
----
 
 ## ⚙️ Features
 📥 Read names from two Excel files (Name A.xlsx and Name B.xlsx).
@@ -15,7 +14,6 @@ The goal is to identify and match name records across systems, where names may v
 📊 Score matches with configurable threshold using token_set_ratio.
 
 💾 Export matched results to a new Excel file (Fuzzy_Matched_Customers.xlsx)
----
 
 ## 🧰 Use Cases
 🧼 Data cleansing and deduplication.
